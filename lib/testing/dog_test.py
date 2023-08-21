@@ -10,7 +10,7 @@ class TestDog:
 
     def test_is_class(self):
         '''is a class with the name "Dog".'''
-        fido = Dog()
+        fido = Dog("Fido")
         assert(type(fido) == Dog)
         
     def test_name_not_empty(self):
